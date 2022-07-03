@@ -1,0 +1,31 @@
+{
+    "name": "image-theme",
+    "displayName": "Image-Theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Image",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Image-color-theme.json"
+            }
+        ]
+    },
+    "icon": "icons/theme_icon.png",
+    "author": {
+        "name": "Zaphkiel",
+        "email": "zaphfkiel@gmail.com"
+    },
+    "repository": {
+        "url": "https://github.com/Zaphfkiel/Image-Theme.git",
+        "type": "git"
+    },
+    "publisher": "Zaphkiel"
+}
